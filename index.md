@@ -1,5 +1,7 @@
 ---
 title: changed title
+sidebar:
+   nav: "main"
 ---
 
 
