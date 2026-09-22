@@ -2,8 +2,8 @@ title: "My Research Website"
 name: "Naemi Leo"
 description: "Research, publications and teaching"
 
-url: "https://USERNAME.github.io"
-baseurl: ""
+url: "https://n-leo.github.io/"
+baseurl: "skills-github-pages"
 
 remote_theme: "mmistakes/minimal-mistakes"
 
