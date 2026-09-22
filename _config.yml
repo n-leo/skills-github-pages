@@ -1,5 +1,31 @@
-theme: minima
+title: "My Research Website"
+name: "Naemi Leo"
+description: "Research, publications and teaching"
 
-title: n-leo's personal blog
-description: This is where I share cool stuff about my life
-author: n-leo
+url: "https://USERNAME.github.io"
+baseurl: ""
+
+remote_theme: "mmistakes/minimal-mistakes"
+
+plugins:
+  - jekyll-include-cache
+
+author:
+  name: "Naëmi Leo"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+
+  - scope:
+      path: ""
+    values:
+      layout: single
+
+markdown: kramdown
+
+minimal_mistakes_skin: air
