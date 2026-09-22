@@ -12,6 +12,8 @@ plugins:
 
 author:
   name: "Naëmi Leo"
+  avatar: "/assets/images/profile.jpg"  
+  bio: "Senior Research Fellow"
 
 defaults:
   - scope:
@@ -19,7 +21,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false
+      author_profile: true
 
   - scope:
       path: ""
